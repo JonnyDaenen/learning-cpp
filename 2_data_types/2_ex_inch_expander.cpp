@@ -22,6 +22,12 @@ int main()
     feet = inches / inches_per_foot;
     inches = inches % inches_per_foot;
 
+    // OR:
+    // feet   = total_inches / inches_per_foot;
+    // inches = total_inches % inches_per_foot;
+    // yards  = feet / feet_per_yard;
+    // feet   = feet % feet_per_yard;
+
     cout << "yards: " << yards << endl;
     cout << "feet: " << feet << endl;
     cout << "inches: " << inches << endl;
