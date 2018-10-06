@@ -8,7 +8,7 @@ int main()
     unsigned int yards, feet, inches;
 
     cout << "enter a distance as yards, feet and inches" << endl;
-    cout << "separated by spaces." << endl;
+    cout << "separated by spaces or by pressing enter each time." << endl;
 
     cin >> yards >> feet >> inches;
 
