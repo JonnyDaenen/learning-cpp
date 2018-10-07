@@ -14,4 +14,7 @@ int main()
 
         result = b / c;
         cout << result << endl; // nan
+
+        cout << -a/b << endl; // -inf
+        cout << -result/b << endl; // nan
 }
